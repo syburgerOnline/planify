@@ -1,0 +1,15 @@
+.print {
+    display: none;
+    z-index: 889;
+}
+.print .border {
+    border:1px solid grey;
+}
+.print .maxSize {
+    width: 1200px;
+    border:1px solid grey;
+}
+.print-table {
+    width: 800px;
+    text-align: left;
+}

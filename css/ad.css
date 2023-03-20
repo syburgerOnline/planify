@@ -1,0 +1,107 @@
+/*toolbox css*/
+._2_1 {
+    width: 100%;
+    height: 100%;
+}
+._1_1 {
+    left: 50%;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+._1_2_quer {
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    height: 50%;
+}
+._1_2_hoch {
+    left: 75%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+}
+._1_3_quer {
+    left: 50%;
+    top: 66%;
+    width: 50%;
+    height: 33%;
+}
+._1_3_hoch {
+    left: 82%;
+    top: 0;
+    width: 18%;
+    height: 100%;
+}
+._1_4_quer {
+    left: 50%;
+    top: 75%;
+    width: 50%;
+    height: 25%;
+}
+._1_4_hoch {
+    left: 87%;
+    top: 0;
+    width: 13%;
+    height: 100%;
+}
+._2_1_2_quer {
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 50%;
+}
+/*adsOnStage css*/
+.ad_2_1 {
+    width: 100%;
+    height: 100%;
+}
+.ad_1_1 {
+    width: 100%;
+    height: 100%
+}
+.ad_1_2_quer {
+    left: 0%;
+    top: 50%;
+    width: 100%;
+    height: 50%;
+}
+.ad_1_2_hoch {
+    left: 50%;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+.ad_1_3_quer {
+    left: 0;
+    top: 66%;
+    width: 100%;
+    height: 33%;
+}
+.ad_1_3_hoch {
+    left: 66%;
+    top: 0;
+    width: 34%;
+    height: 100%;
+}
+.ad_1_4_quer {
+    left: 0;
+    top: 75%;
+    width: 100%;
+    height: 25%;
+}
+.ad_1_4_hoch {
+    left: 75%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+}
+.ad_2_1_2_quer {
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 50%;
+}
+.z-top {
+    z-index: 20;
+}

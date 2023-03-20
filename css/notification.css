@@ -1,0 +1,16 @@
+.notification {
+    z-index:998;
+    display: inline-flex;
+    display: none;
+}
+.notification .content {
+    display: inline-flex;
+}
+.notification label {
+    display: block;
+    font-weight: bold;
+    padding-right: 5px;
+}
+.notification input {
+    margin-right: 10px;
+}

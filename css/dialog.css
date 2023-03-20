@@ -1,0 +1,164 @@
+.dialog {
+    transition: all .2s ease-in-out;
+    display: none;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: scale(1) translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    background: #ffffff;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: normal;
+    filter: drop-shadow(5px 10px 10px #606060);
+    z-index: 887;
+}
+
+.dialog .addArticle-dialog-form,
+.dialog .addIssue-dialog-form,
+.dialog .deleteIssue-dialog-form{
+    display: none;
+}
+
+.dialog input[type="file"]{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.dialog input[type="file"]:focus + label[for="uploadFile"]{
+    border: 1px solid #85E5FF;
+}
+
+.dialog label[for="uploadFile"]{
+    background: #6cad38;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.dialog label[for="uploadFile"]:hover{
+    /*background: #FF9E59;*/
+}
+.dialog select {
+    /*
+    margin: 5px 0 15px 0;
+    padding: 0 5px 0 5px;
+
+     */
+}
+.dialog span {
+    padding: 0 10px 0 10px;
+}
+.dialog div {
+    padding: 0 10px 0 10px;
+}
+.dialog .padding{
+    padding: 10px 0 10px 0;
+}
+.dialog-header {
+    text-align: center;
+    cursor: move;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background: #6cad38;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.dialog-header-headline {
+    color: white;
+    cursor: move;
+    font-size: 18px;
+    font-weight: bold !important;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: none;
+}
+.dialog-header input:focus,
+.dialog-header textarea:focus,
+.dialog-header select:focus {
+    outline: none;
+}
+.dialog-body {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+.dialog-actions {
+    position: relative;
+    text-align: center;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: auto;
+    /*transform: translateY(-100%);*/
+    background: #6cad38;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.user-account-dialog{
+    /*padding: 0 10px 0 10px;*/
+    padding: 0!important;
+}
+.user-account-dialog label {
+    display: inline-block;
+    width: 230px;
+}
+.user-account-dialog .input-field{
+    padding: 0;
+}
+.user-account-dialog div{
+    padding: 0;
+}
+.user-account-dialog .content{
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    margin: 5px 0 10px 0;
+    /*padding: 0 5px 0 5px;*/
+}
+.user-account-dialog .permissions {
+    display: inline;
+    position: relative;
+}
+.user-account-dialog .right {
+    text-align: right;
+    float: right;
+    width: 100%;
+    margin: 0;
+}
+.dialog-select {
+    padding: 10px 10px 10px 10px;
+}
+.user-message-dialog textarea {
+    resize: none;
+}
+.progress {
+    display: none;
+    padding: 10px 0px 10px 0px !important;
+    text-align: center;
+}
+.progress-bar {
+    padding: 0 !important;
+    height: 10px;
+    border: none;
+    color: #6cad38;
+    background: #6cad38;
+}
+.percent {
+    border: none;
+    text-align: left !important;
+}
